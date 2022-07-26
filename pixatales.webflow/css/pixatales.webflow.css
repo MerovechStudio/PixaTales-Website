@@ -1,0 +1,490 @@
+.form-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/PixaTales-Sign-Up-Promo-BU.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.form-wrap._55 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url('../images/Telain-Sunwood-2.PNG');
+}
+
+.form-wrap-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  padding: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: none;
+  border-width: 6px;
+  border-color: #cfa048 #353b5c #cfa048 #cfa048;
+  background-color: #050818;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-block {
+  width: 100%;
+}
+
+.submit-button {
+  width: 50%;
+  height: 60px;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ff9b70 #661020 #661020 #ff9b70;
+  background-color: #d32645;
+  background-image: linear-gradient(153deg, #e4581b, #d32645);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Pixellari, sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-shadow: 2px 2px 5px #050818;
+}
+
+.submit-button:hover {
+  box-shadow: 0 0 20px 0 #d32645;
+}
+
+.text-field {
+  margin-bottom: 30px;
+}
+
+.form-heading-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #353b5c #000 #000 #353b5c;
+  background-color: #02040c;
+}
+
+.form-heading-wrap.left {
+  display: none;
+}
+
+.h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: silver;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.field-label {
+  font-family: Pixellari, sans-serif;
+  color: #bbb;
+  font-size: 20px;
+}
+
+.subtext {
+  margin-top: 15px;
+  font-family: Pixellari, sans-serif;
+  color: #ebebeb;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sm-sep {
+  width: 100px;
+  height: 3px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #bbb;
+}
+
+.signup-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 70px;
+  padding-top: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ff9b70 #661020 #661020 #ff9b70;
+  background-color: #dd202f;
+  font-family: Pixellari, sans-serif;
+  color: #bbb;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.field {
+  height: 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000 #353b5c #353b5c #000;
+  background-color: #181e3a;
+  font-family: Pixellari, sans-serif;
+  color: #bbb;
+  font-size: 20px;
+}
+
+.field-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-right: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.field-wrap.end {
+  margin-right: 0px;
+}
+
+.dual-field-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.image-pane {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/PixaTales-Sign-Up-Promo-BU.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.info-pane {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(5, 8, 24, 0.99);
+}
+
+.success-message {
+  background-color: transparent;
+  font-family: Pixellari, sans-serif;
+  color: #ebebeb;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.error-message {
+  background-color: red;
+  font-family: Pixellari, sans-serif;
+  color: #ebebeb;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.bottom-bar {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.half-bot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 5px none #000;
+  background-color: #01030c;
+}
+
+.text-block-2 {
+  font-family: Pixellari, sans-serif;
+  color: #bbb;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .form-wrap {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .form-wrap._55 {
+    height: 100vh;
+  }
+
+  .form-wrap-2 {
+    width: 100%;
+    height: 100vh;
+    border-right-style: none;
+  }
+
+  .form-heading-wrap.main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .form-heading-wrap.left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .image-pane {
+    display: none;
+    width: 100%;
+    height: 50vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(38%, transparent), color-stop(74%, rgba(4, 6, 18, 0.76)), to(#050818)), url('../images/PixaTales-Sign-Up-Promo-BU.JPG');
+    background-image: linear-gradient(180deg, transparent 38%, rgba(4, 6, 18, 0.76) 74%, #050818), url('../images/PixaTales-Sign-Up-Promo-BU.JPG');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+
+  .half-bot {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form-wrap-2 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .half-bot {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .form-wrap._55 {
+    height: 100vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url('../images/Telain-Sunwood-2.PNG');
+    background-position: 50% 50%;
+  }
+
+  .form-wrap-2 {
+    height: auto;
+    min-height: 100vh;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .form-heading-wrap.main {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .subtext {
+    font-size: 18px;
+  }
+
+  .signup-button {
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #ff9b70 #661020 #661020 #ff9b70;
+    background-image: linear-gradient(323deg, #d32645, #e43d1b);
+    font-family: Pixellari, sans-serif;
+  }
+
+  .field-wrap {
+    width: 100%;
+  }
+
+  .image-pane {
+    height: 30vh;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .half-bot {
+    width: 100%;
+  }
+
+  .text-block-2 {
+    font-size: 15px;
+  }
+}
+
+@font-face {
+  font-family: 'Upheavtt';
+  src: url('../fonts/upheavtt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pixellari';
+  src: url('../fonts/Pixellari.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
